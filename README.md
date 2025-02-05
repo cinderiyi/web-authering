@@ -4,8 +4,8 @@
 This project is part of the Web Authoring course where students complete weekly assignments and upload their work to GitHub repositories. The goal of this assignment is to give students hands-on experience in web development and testing. The project will help students practice HTML markup and ensure they can view their assignments in a browser as they would appear to the public.
 
 ## Assignment Details
-- **Objective:** Create a simple HTML page about yourself using the provided instructions.
-- **Technologies Used:** HTML (no CSS, images, or JavaScript except what is required in the instructions).
+- **Objective:** Create a simple HTML page about yourself using the provided instructions. 
+- **Technologies Used:** HTML (no CSS, or JavaScript except what is required in the instructions).
 - **File:** `test.html`
   
 ## Purpose of the Project
@@ -13,6 +13,8 @@ The main purpose of this project is to help students become familiar with web au
 1. Structuring an HTML page.
 2. Testing a live version of the page online through GitHub and the browser.
 3. Presenting themselves through a basic web page, while maintaining focus on clean and functional code.
+4. Use new tools and HTML tags to enhanse a website
+5. Learn how to imbed images in HTML
 
 ## About Me
 My name is Ashe Gravenkemper, and I’m currently taking this Web Authoring class as part of my journey to becoming a solo web developer. I’m excited to expand my skills and knowledge in web development and to continue building a solid foundation for future projects.
