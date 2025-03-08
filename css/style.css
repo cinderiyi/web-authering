@@ -3,27 +3,72 @@
     #e6e2d3  light sandpaper
     #c4b7a6  khaiki */
 
-    header {
 
+    #gradient {
+        background-image: repeating-linear-gradient(135deg, #e6e2d3,#c4b7a6, #dac292,#b9936c);
+        height: auto;
+        width: auto;
     }
+
+    #background {
+        background-image: url(/images/frill.jpg);
+        height: 15vh;
+        width: 100vw;
+        position: relative;
+        object-fit: cover;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+    }
+
+    a:link { color:#564029;}
+    a:visited { color: #564029;}
+    a:hover { color: #2e271f;}
+    a:active { color: #2e271f;}
+
+    header {
+        background-color: #b9936c;
+        width: 100%;
+    }
+
+    body {
+        background-color: #e6e2d3;
+    }
+
+    nav {
+        background-color: #c4b7a6;
+        height: auto;
+        width: auto;
+    }
+
 
     h1 {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 800;
-        font-size: 18px;
+        color: #564029;
     }
 
     h2 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 700;
+        color: #564029;
     }
 
-    h3, h4, h5, h6 {
+     h3, h4, h5, h6 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight:600;
+        color: #564029;
     }
 
-    p {
+    p, li, ol {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
+        color: #453421;
     }
+
+    #cherry-bomb-one-regular {
+        font-family: 'Cherry Bomb One', system-ui;
+        font-weight: 600;
+        font-style: normal;
+        color: #564029;
+      }

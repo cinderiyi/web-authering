@@ -7,17 +7,23 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Test Page</title>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+      <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/fontawesome.css">
       <link rel="stylesheet" href="css/solid.css">
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style.css"> 
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+      </style>
    </head>
 
    <body>
+      <header id="gradient"> <!--I dont know why header isnt showing color, need to ask in class-->
+         <h1>Welcome to Web Authoring 2025</h1> 
+      </header>
       <nav> 
-         <a href="blog.html">About Web Development</a> |
-         <a href="#">Style, Layout and Behavior</a> |
-         <a href="#">Putting It All Together</a>
+         <a href="blog.html"><i class="fa-solid fa-book-open"></i>Learning About Web Development</a> |
+         <a href="#"><i class="fa-solid fa-palette"></i>Style, Layout and Behavior</a> |
+         <a href="#"><i class="fa-solid fa-puzzle-piece"></i>Putting It All Together</a>
       </nav>
       <h2>All About Ashe</h2>
       <main>
@@ -37,8 +43,10 @@
          <p>Another big interest of mine is <em>urbex—urban exploration.</em> There's something thrilling about discovering abandoned places and seeing the history left behind. Whether it's an old factory, a forgotten house, or a hidden tunnel, every place has a story to tell. I enjoy capturing the eerie beauty of these locations through photos and taking in the quiet atmosphere of places most people don't get to see.</p>
 
          <p>At the core of all these interests is my love for <em>making new connections with people.</em> Whether it's through music, gaming, or shared experiences, I always enjoy meeting people who share my passions or introduce me to new ones. Life is all about experiences, and I'm always looking for new ways to explore and grow.</p>
+         </section>
 
-            <h3>My Favorate Hobbies </h3>
+         <section>
+            <h3> List of hobbies in order</h3>
             <ol>
                <li>League of Legands</li>
                <li>New connections</li>
@@ -47,9 +55,14 @@
             </ol>
          </section>
 
-         <p><strong>SILLY LITTLE GUY</strong></p>
+         <section>
+         <h3 id="cherry-bomb-one-regular">SILLY LITTLE GUY</h3>
          <img src="images/cat.jpg" alt="silly little guy" title="this is an image of a silly little guy">
-         <footer>
+         </section>
+
+         <footer id="background">
+            <a href="https://www.dallascollege.edu/pages/default.aspx" title="dallas collage" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Dallas Collage</a>
+            <a href="mailto:cydner2011ag@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> To email the webmaster directly</a>
             <h3>&copy; 2025</h3>
          </footer>
       </body>
