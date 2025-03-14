@@ -10,6 +10,22 @@
         width: auto;
     }
 
+    #image {
+        height: 50vh;
+        width: 95vw;
+        left: 0;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    #wideshot {
+        height: 50vh;
+        width: auto;
+        left: 0;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    
     #background {
         background-image: url(/images/frill.jpg);
         height: 15vh;
